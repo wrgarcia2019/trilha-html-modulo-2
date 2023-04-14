@@ -20,19 +20,52 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(167, 239, 241);
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    background-color: rgb(4, 162, 162);
+    min-height: 130px;
 }
 .content {
-    background-color: white;
+    background-color: rgb(167, 239, 241);
     min-height: 300px;
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(4, 162, 162);
     min-height: 150px;
 }
+.fieldset {
+    margin: 15px 0;
+    border-radius: 10px;
+    border-color: #f9f9f9;
+}
+label {
+    width: 100px;
+    text-align: right;
+    padding-right: 15px;
+    display: inline-flex ;
+    
+}
+
+table {
+    box-shadow: 12px 14px 5px 0px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 12px 14px 5px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 12px 14px 5px 0px rgba(0,0,0,0.24);
+    border: solid 1px gray;
+  }
+  table thead th{
+    background-color: black;
+    color: white;
+  }
+  table tfoot td {
+    background-color: lightgray;
+  }
+  table tbody tr:nth-child(even) td{
+    background-color: #f1f1f1;
+  }
+  table tbody tr:hover td{
+    background-color: darkgrey;
+    cursor: pointer;
+  }
